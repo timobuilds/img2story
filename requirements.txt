@@ -1,0 +1,7 @@
+langchain 
+python-dotenv 
+streamlit 
+openai 
+transformers
+torch
+tensorflow
