@@ -24,7 +24,7 @@ Install:
 Using `conda`:
 ``` bash
 cd hf-play
-conda create -n hfp-env python=3.9
+conda create -n hfp-env 
 conda activate hfp-env
 ```
 

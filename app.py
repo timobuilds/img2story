@@ -64,10 +64,9 @@ def text2speech(message):
         file.write(response.content)
 
 # cant get the streamlit version to play. keep getting 
-
-#scenario = img2text("healabeauty.png")
-#story=generate_story(scenario)
-#text2speech(story)
+# scenario = img2text("healabeauty.png")
+# story=generate_story(scenario)
+# text2speech(story)
 
 def main():
     
@@ -75,7 +74,6 @@ def main():
     
     st.header("Turn an image to an audio story")
     uploaded_file = st.file_uploader("Upload an image...", type = "png")
-
 
     if uploaded_file is not None:
         bytes_data = uploaded_file.getvalue()
